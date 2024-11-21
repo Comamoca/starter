@@ -49,7 +49,6 @@ nix run .#test
 ## 🧩 Modules
 
 - [rove](https://github.com/fukamachi/rove)
-- [arrow-macros](https://github.com/hipeta/arrow-macros)
 - [sly](https://github.com/joaotavora/sly)
 - [flake-parts](https://flake.parts)
 
