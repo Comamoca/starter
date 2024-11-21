@@ -1,0 +1,19 @@
+name = "cl-nix"
+description = "A basic flake to with flake-parts"
+kickstart_version = 1
+
+ignore = [
+  ".direnv",
+  "flake.lock",
+  "README.md",
+]
+
+[[variables]]
+name = "project_name"
+default = "mypkg"
+prompt = "Project name?"
+
+[[variables]]
+name = "author"
+default = "Comamoca"
+prompt = "Autor name?"
