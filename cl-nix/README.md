@@ -18,21 +18,14 @@ Modern Common Lisp project template using Nix
 
 ## 🚀 How to use
 
-### 🦊 Use scaffox
+This project uses [kickstart](https://github.com/Keats/kickstart).
+You need to install kickstart to use the template.
 
-Please install [scaffox](https://github.com/comamoca/scaffox)
-
-```sh
-deno install -gAf -n scaffox https://raw.githubusercontent.com/Comamoca/scaffox/main/main.ts
-
-# then run scaffox
-scaffox
-```
-
-### ❄  With Nix
+If you want to use the this template, run the following command.
+Since kickstart extracts files to the current directory by default, we specify the output to the `hello` directory with the `-o` option.
 
 ```sh
-nix flake init -t github:Comamoca/scaffold#cl-nix
+kickstart https://github.com/comamoca/starter -s cl-nix -o hello
 ```
 
 ## ⛏️   Development
