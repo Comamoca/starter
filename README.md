@@ -46,7 +46,8 @@ kickstart ./cl-nix -o hello
 
 ## 📜 License
 
-> [!CAUTION] **If a license is specified in the included source code, that
+> [!CAUTION]
+> **If a license is specified in the included source code, that
 > license will take precedence.**
 
 CC0
