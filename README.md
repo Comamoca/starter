@@ -24,9 +24,16 @@ This is Comamoca's starter collection.
 
 ## 🚀 How to use
 
+This project uses [kickstart](https://github.com/Keats/kickstart).
+You need to install kickstart to use the template.
+
+If you want to use the [cl-nix](https://github.com/Comamoca/starter/tree/main/cl-nix) template, run the following command.
+Since kickstart extracts files to the current directory by default, we specify the output to the `hello` directory with the `-o` option.
+
 ```sh
 kickstart https://github.com/comamoca/starter -s cl-nix -o hello
 ```
+
 ## ⛏️   Development
 
 ### Required
